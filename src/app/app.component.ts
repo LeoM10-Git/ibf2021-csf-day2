@@ -22,20 +22,15 @@ export class AppComponent implements OnInit{
       item.quantity = 1;
       this.items.push(item);
     } else if (this.items.length < 4) {
-      for (let item of this.items) {
-        if (item.name === name) {
-          item.quantity++;
-          console.log(item.quantity)
-        } else {
-          console.log("add" + name)
+        if (this.items.some(item => item.name === name))
+        this.items[this.items.indexOf(this.items.filter(item => item.name === name)[0])].quantity ++;
+        else{
           let item = new Item();
           item.name = name;
           item.quantity = 1;
           this.items.push(item);
-          break;
         }
-      }
-    }else{
+        } else{
       for (let item of this.items) {
         if (item.name === name) {
           item.quantity++;
