@@ -1,0 +1,15 @@
+<div class="container col-lg-12">
+  <h1 class="text-center"> My Cart </h1>
+  <div *ngFor="let item of cartItems" >
+    <div class="row " *ngIf="item.quantity > 0" >
+      <div class="d-flex justify-content-between" >
+        <div>
+          <img class="image" src="assets/images/{{item.name}}.jpeg" alt="">
+          <h4 class="description">{{ item.name }}</h4>
+          <h5 class="description">,quantity {{ item.quantity }}</h5>
+        </div>
+        <button  (click)="remove(item.name)" class="btn btn-dark col-2 my-auto"> Remove </button>
+      </div>
+    </div>
+  </div>
+</div>
