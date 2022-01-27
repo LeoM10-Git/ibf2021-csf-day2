@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1643256304773,
+  "timestamp": 1643256381640,
   "index": "ibf2021-csf-day2/index.html",
   "assetGroups": [
     {
@@ -62,7 +62,7 @@
     "ibf2021-csf-day2/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
     "ibf2021-csf-day2/index.html": "d21501a1761b0716943ad7937956b7e1d3bac9b7",
     "ibf2021-csf-day2/main.60233efc18a1eb73.js": "8ba411834e0128cba411f67631bb1dcf8356bfdd",
-    "ibf2021-csf-day2/manifest.webmanifest": "5962838d3cba1f8d78d52e88b34c63844bfcdd06",
+    "ibf2021-csf-day2/manifest.webmanifest": "7b59dcd0927ece293a050bf0258fae37f9895582",
     "ibf2021-csf-day2/polyfills.55ae2d91989d48d6.js": "d46a3317c22cac4276410be6c6346274a51b5778",
     "ibf2021-csf-day2/runtime.cdaa85bc7c30d005.js": "a7e94b139df6b2c3afeaa979803d7fd38439de4b",
     "ibf2021-csf-day2/styles.0b5da2cbb88fca75.css": "7f22e7eeb4f8357cef9ecfb356502da0f4f7fbfa"
